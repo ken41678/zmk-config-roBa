@@ -64,20 +64,24 @@
 
         Symbol_Left {
             bindings = <
-&kp PIPE         &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE                                      &none       &none  &none  &none  &none
-&kp EXCLAMATION  &kp GRAVE      &kp EQUAL         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none          &none          &none       &none  &none  &none  &none
-&none            &kp SQT        &kp CARET         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none          &none          &none       &none  &none  &none  &none
-&none            &none          &none             &kp LCTRL             &kp SPACE              &kp ENTER      &kp BACKSPACE  &kp RSHIFT                       &none
+&kp PIPE         &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE                                           &none      &none  &none  &none  &none
+&kp EXCLAMATION  &kp GRAVE      &kp EQUAL         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none               &none          &none      &none  &none  &none  &none
+&none            &kp SQT        &kp CARET         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none               &none          &none      &none  &none  &none  &none
+&none            &none          &none             &kp LCTRL             &kp SPACE              &kp LEFT_SHIFT      &kp BACKSPACE  &kp ENTER                       &none
             >;
+
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         Symbol_Right {
             bindings = <
-&none  &none  &none  &none      &none                                    &kp DOUBLE_QUOTES  &kp PERCENT    &kp AMPERSAND  &kp LS(BACKSLASH)  &kp DOLLAR
-&none  &none  &none  &none      &none      &none          &none          &kp TILDE          &kp SLASH      &kp HASH       &kp ASTERISK       &kp AT_SIGN
-&none  &none  &none  &none      &none      &none          &none          &kp UNDERSCORE     &kp SEMICOLON  &kp COLON      &kp PLUS           &none
-&none  &none  &none  &kp LCTRL  &kp SPACE  &kp ENTER      &kp BACKSPACE  &kp RIGHT_SHIFT                                                     &none
+&none  &none  &none  &none      &none                                         &kp DOUBLE_QUOTES  &kp PERCENT    &kp AMPERSAND  &kp BACKSLASH  &kp DOLLAR
+&none  &none  &none  &none      &none      &none               &none          &kp TILDE          &kp SLASH      &kp HASH       &kp ASTERISK   &kp AT_SIGN
+&none  &none  &none  &none      &none      &none               &none          &kp UNDERSCORE     &kp SEMICOLON  &kp COLON      &kp PLUS       &none
+&none  &none  &none  &kp LCTRL  &kp SPACE  &kp LEFT_SHIFT      &kp BACKSPACE  &kp ENTER                                                       &none
             >;
+
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         Application {

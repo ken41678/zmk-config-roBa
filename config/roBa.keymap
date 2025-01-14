@@ -102,11 +102,13 @@
 
         WindowsKey {
             bindings = <
-&kp LC(TAB)          &kp LG(T)            &kp LG(UP_ARROW)     &kp LG(B)            &alt_space_wait_n                                &none  &none  &none  &none  &none
-&kp LA(TAB)          &kp LG(LEFT_ARROW)   &kp LG(DOWN_ARROW)   &kp LG(RIGHT_ARROW)  &alt_space_wait_x    &none                &none  &none  &none  &none  &none  &none
-&kp LG(KP_NUMBER_1)  &kp LG(KP_NUMBER_2)  &kp LG(KP_NUMBER_3)  &kp LG(KP_NUMBER_4)  &kp LG(KP_NUMBER_5)  &kp KP_NUMBER_6      &none  &none  &none  &none  &none  &none
-&none                &none                &none                &none                &none                &none                &none  &none                       &none
+&kp LC(TAB)          &kp LG(T)            &kp LG(UP_ARROW)     &kp LG(B)            &alt_space_wait_n                                        &none      &none  &none  &none  &none
+&kp LA(TAB)          &kp LG(LEFT_ARROW)   &kp LG(DOWN_ARROW)   &kp LG(RIGHT_ARROW)  &alt_space_wait_x    &none                &none          &none      &none  &none  &none  &none
+&kp LG(KP_NUMBER_1)  &kp LG(KP_NUMBER_2)  &kp LG(KP_NUMBER_3)  &kp LG(KP_NUMBER_4)  &kp LG(KP_NUMBER_5)  &kp KP_NUMBER_6      &none          &none      &none  &none  &none  &none
+&none                &none                &none                &kp LCTRL            &kp SPACE            &kp LEFT_SHIFT       &kp BACKSPACE  &kp ENTER                       &none
             >;
+
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         Number {

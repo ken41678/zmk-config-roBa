@@ -83,10 +83,10 @@
 
         Application {
             bindings = <
-&kp LC(LS(LA(KP_NUMBER_0)))  &kp LS(LA(LC(KP_NUMBER_1)))  &kp LS(LC(LA(KP_NUMBER_2)))  &kp LS(LA(LC(KP_NUMBER_3)))  &kp LS(LA(LC(KP_NUMBER_4)))                                &none  &none  &none  &none  &none
-&kp LS(LA(LC(KP_NUMBER_5)))  &kp LS(LA(LC(KP_NUMBER_6)))  &kp LS(LA(LC(KP_NUMBER_7)))  &kp LS(LA(LC(KP_NUMBER_8)))  &kp LS(LA(LC(KP_NUMBER_9)))  &none                  &none  &none  &none  &none  &none  &none
-&kp LS(LA(LC(A)))            &kp LS(LA(LC(B)))            &kp LS(LA(LC(C)))            &kp LS(LA(LC(D)))            &kp LS(LA(E))                &kp LS(LA(LC(F)))      &none  &none  &none  &none  &none  &none
-&kp LS(LA(LC(G)))            &kp LS(LA(LC(H)))            &kp LS(LA(I))                &kp                          &kp                          &kp                    &kp    &kp                         &none
+&kp LC(LS(LA(KP_NUMBER_0)))  &kp LS(LA(LC(KP_NUMBER_1)))  &kp LS(LC(LA(KP_NUMBER_2)))  &kp LS(LA(LC(KP_NUMBER_3)))  &kp LS(LA(LC(KP_NUMBER_4)))                                        &none            &none  &none  &none  &none
+&kp LS(LA(LC(KP_NUMBER_5)))  &kp LS(LA(LC(KP_NUMBER_6)))  &kp LS(LA(LC(KP_NUMBER_7)))  &kp LS(LA(LC(KP_NUMBER_8)))  &kp LS(LA(LC(KP_NUMBER_9)))  &none                  &none          &none            &none  &none  &none  &none
+&kp LS(LA(LC(A)))            &kp LS(LA(LC(B)))            &kp LS(LA(LC(C)))            &kp LS(LA(LC(D)))            &kp LS(LA(E))                &kp LS(LA(LC(F)))      &none          &none            &none  &none  &none  &none
+&kp LS(LA(LC(G)))            &kp LS(LA(LC(H)))            &kp LS(LA(I))                &kp LEFT_CONTROL             &kp SPACE                    &kp ENTER              &kp BACKSPACE  &kp RIGHT_SHIFT                       &none
             >;
         };
 

@@ -72,7 +72,7 @@
             >;
         };
 
-        NUM {
+        Symbol_Right {
             bindings = <
 &none  &none  &none  &none      &none                                    &kp DOUBLE_QUOTES  &kp PERCENT    &kp AMPERSAND  &kp LS(BACKSLASH)  &kp DOLLAR
 &none  &none  &none  &none      &none      &none          &none          &kp TILDE          &kp SLASH      &kp HASH       &kp ASTERISK       &kp AT_SIGN
@@ -81,12 +81,12 @@
             >;
         };
 
-        FUNCTION {
+        Application {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2     &kp F3     &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7     &kp F8     &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &mkp LCLK  &mkp RCLK  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                                &kp F12
+&kp LC(LS(LA(KP_NUMBER_0)))  &kp LS(LA(LC(KP_NUMBER_1)))  &kp LS(LC(LA(KP_NUMBER_2)))  &kp LS(LA(LC(KP_NUMBER_3)))  &kp LS(LA(LC(KP_NUMBER_4)))                                &none  &none  &none  &none  &none
+&kp LS(LA(LC(KP_NUMBER_5)))  &kp LS(LA(LC(KP_NUMBER_6)))  &kp LS(LA(LC(KP_NUMBER_7)))  &kp LS(LA(LC(KP_NUMBER_8)))  &kp LS(LA(LC(KP_NUMBER_9)))  &none                  &none  &none  &none  &none  &none  &none
+&kp LS(LA(LC(A)))            &kp LS(LA(LC(B)))            &kp LS(LA(LC(C)))            &kp LS(LA(LC(D)))            &kp LS(LA(E))                &kp LS(LA(LC(F)))      &none  &none  &none  &none  &none  &none
+&kp LS(LA(LC(G)))            &kp LS(LA(LC(H)))            &kp LS(LA(I))                &kp                          &kp                          &kp                    &kp    &kp                         &none
             >;
         };
 
